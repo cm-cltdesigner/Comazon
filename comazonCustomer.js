@@ -6,7 +6,7 @@ var connection = mysql.createConnection ({
 	host: "localhost",
 	port: 8889,
 	user: "root",
-	password: "",
+	password: "root",
 	database: "comazon"
 });
 
@@ -28,7 +28,7 @@ var displayProducts = function() {
 				[res[i].item_id,res[i].product_name, res[i].department_name, res[i].price, res[i].stock_quantity]
 				);
 		}
-		console.log(displayTable.toString());
+		// console.log(displayTable.toString());
 		purchasePrompt();
 	});
 }
@@ -38,14 +38,14 @@ function purchasePrompt() {
 	{
 		name: "ID",
 		type: "input",
-		message:"Please enter Item-ID you'll like to purhcase.",
-		filter:Number
+		message: "Please enter Item-ID you'll like to purhcase.",
+		filter: Number
 	},
 	{
-		name:"Quantity",
-		type:"input",
-		message:"How many items do you wish to purchase?",
-		filter:Number
+		name: "Quantity",
+		type: "input",
+		message: "How many items do you wish to purchase?",
+		filter: Number
 	},
 
  ]).then(function(answers) {
@@ -61,11 +61,11 @@ function purchaseOrder(ID, amtNeeded) {
 		if(amtNeeded <= res[0].stock_quantity) {
 			var totalCost = res[0].price * amtNeeded;
 			console.log("Great News: Your order is in stock!");
-			console.log("Your total cost for " + amtNeeded + " " +res[0].product_name + " is " + totalCost + " Thank you!");
+			console.log("Your total cost for " + amtNeeded + " " +res[0].product_name + " is " + totalCost + " Thank You!");
 
 			connection.query("UPDATE products SET stock_quantity = stock_quantity - " + amtNeeded + "WHERE item_id = " + ID);
 		} else {
-			console.log("Insufficient quantity! Our appoligies we do not have enough " + res[0].product_name + "to complete your order.");
+			console.log("Insufficient quantity! Our appoligies we do not have enough " + res[0].Product_Name + "to complete your order.");
 		};
 		displayProducts();
 	});

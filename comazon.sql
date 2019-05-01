@@ -16,12 +16,12 @@ CREATE TABLE products(
 Select * FROM products;
 
 INSERT INTO products (Item_ID, Product_Name, Department_Name, Price, Stock_Quantity) 
-VALUES (150, "iglasses", "techwear", 29.99, 20),
-	   (250, "macbook", "computer", 2099.99, 10),
-	   (350, "headphones", "techwear", 29.99, 5),
-	   (450, "pc", "computer", 869.99, 14),
-	   (550, "adapter", "computer", 9.99, 15),
-	   (650, "charger", "computer", 19.99, 15),
-	   (750, "stress fan", "techwear", 49.99, 11),
-	   (850, "rubber duckie", "techwear", 3.99, 50),
-	   (950, "speakers", "computer", 89.99, 2)
+VALUES (150, "iGlasses ", "Techwear ", 29.99, 20),
+	   (250, "MacBook ", "Computer ", 2099.99, 10),
+	   (350, "Headphones ", "Techwear ", 29.99, 5),
+	   (450, "PC Laptop ", "Computer ", 869.99, 14),
+	   (550, "Adapter ", "Computer ", 9.99, 15),
+	   (650, "Charger ", "Computer ", 19.99, 15),
+	   (750, "Stress Fan ", "Techwear ", 49.99, 11),
+	   (850, "Rubber Duckie ", "Techwear ", 3.99, 50),
+	   (950, "Speakers ", "Computer ", 89.99, 2)
