@@ -24,7 +24,7 @@ $ npm install cli-table
 ```
 
 ## Future Development
-For future development I would love to incoporate an Supervisor's database which includes a column for Department within the Comazon Store App.
+For future development I would love to incoporate an Supervisor's database which includes a column for the Departments within the Comazon Store App. Along wiht perfecting the Comazon's Customer and Manager functionality.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
