@@ -11,15 +11,20 @@ NPM Packages<br>
 
 ## Example of Node Commands:
 <strong>Comazon Customer's</strong><br>
-![](gif here)
+![](https://media.giphy.com/media/duoYMiVOw8zgkJwBGL/giphy.gif)
 
 <strong>Comazon Manager's</strong><br>
 ![](gif here)
 
 ## Launch
 ```
-$ npm install
+$ npm install mysql<br>
+$ npm install inquirer<br>
+$ npm install cli-table
 ```
+
+## Future Development
+For future development I would love to incoporate an Supervisor's database which includes a column for Department within the Comazon Store App.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
