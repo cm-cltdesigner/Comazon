@@ -13,9 +13,6 @@ NPM Packages<br>
 <strong>Comazon Customer's</strong><br>
 ![](https://media.giphy.com/media/duoYMiVOw8zgkJwBGL/giphy.gif)
 
-<strong>Comazon Manager's</strong><br>
-![]( hmmmm gif will be placed once perfected )
-
 ## Launch
 ```
 $ npm install mysql
