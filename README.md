@@ -14,7 +14,7 @@ NPM Packages<br>
 ![](https://media.giphy.com/media/duoYMiVOw8zgkJwBGL/giphy.gif)
 
 <strong>Comazon Manager's</strong><br>
-![](gif here)
+![]( hmmmm gif will be placed once perfected )
 
 ## Launch
 ```
