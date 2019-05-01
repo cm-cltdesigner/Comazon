@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
 	host: "localhost",
 	port: 8889,
 	user: "root",
-	password: "",
+	password: "root",
 	database: "comazon"
 });
 
@@ -27,7 +27,7 @@ function displayInventory() {
 				[res[i].item_id,res[i].product_name, res[i].department_name, res[i].price, res[i].stock_quantity]
 				);
 		}
-		console.log(theDisplayTable.toString());
+		// console.log(theDisplayTable.toString());
 		inquirerForUpdates();
 	});
 };

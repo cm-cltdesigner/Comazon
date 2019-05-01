@@ -18,8 +18,8 @@ NPM Packages<br>
 
 ## Launch
 ```
-$ npm install mysql<br>
-$ npm install inquirer<br>
+$ npm install mysql
+$ npm install inquirer
 $ npm install cli-table
 ```
 
